@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner1 {
+            display: flex;
+        }
+
+
+        .item2 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .item3 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner3 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .item4 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner4 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item5 {
+        background-color: tomato;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        font-size: 50px;
+        padding: 10px;
+      }
+      .conatiner5 {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    </style>
+</head>
+
+<body>
+    <h1>What is Flexbox?</h1>
+    <p>flexbox stand for flexible box. to align cards flexibly inside to container. Flexbox make it simple to align item
+        vertically and horizontally using rows and columns. Flexbox makes it easier to design a flexible responsive
+        layout of a webpage</p>
+    <p>we can add multiple-child items in one parents container</p>
+
+    <p>We can use the flexbox property then your first step is to create one parent division and in the parent division
+        we create multiple child divisions.</p>
+    <div class="conatiner">
+        <div class="item1">1</div>
+        <div class="item1">2</div>
+        <div class="item1">3</div>
+    </div>
+    <hr>
+    <h1>flex-direction</h1>
+    <p>Flex direction are used to define the direction of child item are placed in the flex container</p>
+    <h6>There are four flex direction are available</h6>
+
+    <h2>1. flex-direction: row;</h2>
+    <p>By default direction is row. child items are are Left to Right direction.</p>
+    <div class="conatiner2">
+        <div class="item2">1</div>
+        <div class="item2">2</div>
+        <div class="item2">3</div>
+    </div>
+
+    <h2>2. flex-direction: row-reverse;</h2>
+    <p>child item are Right to Left direction.</p>
+    <div class="conatiner3">
+        <div class="item3">1</div>
+        <div class="item3">2</div>
+        <div class="item3">3</div>
+    </div>
+
+    <h2>3 flex-direction: column;</h2>
+    <p>child items are Top to Bottom direction.</p>
+    <div class="conatiner4">
+        <div class="item4">1</div>
+        <div class="item4">2</div>
+        <div class="item4">3</div>
+    </div>
+
+    <h2>4 flex-direction: column-reverse;</h2>
+    <p>child items are Bottom to Top direction.</p>
+    <div class="conatiner5">
+        <div class="item5">1</div>
+        <div class="item5">2</div>
+        <div class="item5">3</div>
+    </div>
+
+
+
+</body>
+
+</html>
