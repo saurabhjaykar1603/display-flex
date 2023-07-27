@@ -139,49 +139,162 @@
             flex-direction: row;
             justify-content: space-evenly;
         }
-        .item10 {
-        background-color: tomato;
-        height: 100px;
-        width: 100px;
-        margin: 10px;
-        font-size: 50px;
-        padding: 10px;
-      }
-      .conatiner10 {
-        background-color: aqua;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
-      .item11 {
-        background-color: tomato;
-        height: 100px;
-        width: 100px;
-        margin: 10px;
-        font-size: 50px;
-        padding: 10px;
-      }
-      .conatiner11 {
-        background-color: aqua;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
 
-      .item12 {
-        background-color: tomato;
-        height: 100px;
-        width: 100px;
-        margin: 10px;
-        font-size: 50px;
-        padding: 10px;
-      }
-      .conatiner12 {
-        background-color: aqua;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-      }
+        .item10 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner10 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .item11 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner11 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .item12 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner12 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .item13 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner13 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+
+        .item14 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner14 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+            height: 500px;
+        }
+
+        .item15 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner15 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+
+        .item16 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner16 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 500px;
+        }
+
+        .item17 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner17 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 500px;
+        }
+
+        .item18 {
+            background-color: tomato;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        .conatiner18 {
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+            height: 500px;
+        }
     </style>
 </head>
 
@@ -278,7 +391,8 @@
     </div>
 
     <h2>5 Justify-content:space-around;</h2>
-    <p>Child items are evenly distributed within the alignment container.In the space-around, only the inner items will have equal spacing in between each other. The first and last item will only be allocated half the spacing.</p>
+    <p>Child items are evenly distributed within the alignment container.In the space-around, only the inner items will
+        have equal spacing in between each other. The first and last item will only be allocated half the spacing.</p>
 
     <div class="conatiner11">
         <div class="item11">1</div>
@@ -287,14 +401,85 @@
     </div>
 
     <h2>6 justify-content: space-between;</h2>
-    <p>Child items are evenly distributed in the line.It does not provide space in side but it provide equal space between all items.</p>
+    <p>Child items are evenly distributed in the line.It does not provide space in side but it provide equal space
+        between all items.</p>
 
     <div class="conatiner12">
         <div class="item12">1</div>
         <div class="item12">2</div>
         <div class="item12">3</div>
     </div>
-<hr>
+    <hr>
+    <h1>align-items</h1>
+    <p>When the flex-direction is a row then justify-content control horizontally. This means the X axis but you can
+        control the opposite axis Which means the Y axis then you use the property align-items. Align items are used to
+        control items on the opposite axis.</p>
+
+    <h2>1. align-items: flex-start;</h2>
+    <p>Items are placed at the start of the Opposite ( Y axis ) axis.</p>
+
+    <div class="conatiner13">
+        <div class="item13">1</div>
+        <div class="item13">2</div>
+        <div class="item13">3</div>
+    </div>
+
+    <h2>2. align-item: flex-end;</h2>
+    <p>Items aare placed at the end of the opposite</p>
+    <div class="conatiner14">
+        <div class="item14">1</div>
+        <div class="item14">2</div>
+        <div class="item14">3</div>
+    </div>
+
+    <h2>3. align-item: center</h2>
+    <p>Items are centered in the opposite</p>
+    <div class="conatiner15">
+        <div class="item15">1</div>
+        <div class="item15">2</div>
+        <div class="item15">3</div>
+    </div>
+
+    <h1>When the flex-direction is a column then justify-content control vertically. This means the Y axis but you can
+        control the item's opposite axis Which means the X axis then you use the property align-item.</h1>
+    <!-- .................................................. -->
+    <h2>flex-direction: column;</h2>
+    <h2>justify-content:flex-start;</h2>
+    <h2>align-items:flex-start;</h2>
+
+    <div class="conatiner16">
+        <div class="item16">1</div>
+        <div class="item16">2</div>
+        <div class="item16">3</div>
+    </div>
+
+    <!-- .................................................. -->
+
+
+    <h2>flex-direction: column;</h2>
+    <h2>justify-content:flex-start;</h2>
+    <h2>align-items:center;</h2>
+
+    <div class="conatiner17">
+        <div class="item17">1</div>
+        <div class="item17">2</div>
+        <div class="item17">3</div>
+    </div>
+
+    <!-- .................................................. -->
+
+    
+    <h2>flex-direction: column;</h2>
+    <h2>justify-content:flex-start;</h2>
+    <h2>align-items:flex-end;</h2>
+
+    <div class="conatiner18">
+        <div class="item18">1</div>
+        <div class="item18">2</div>
+        <div class="item18">3</div>
+    </div>
+
+
 
 </body>
 
